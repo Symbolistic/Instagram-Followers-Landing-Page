@@ -1,0 +1,115 @@
+body{
+	font-family: "Open Sans";
+}
+
+.header{
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-top: -22px;
+	padding-top: 7px;
+	height: 80px;
+	border-bottom: 2px solid yellow;
+	white-space: nowrap;
+}
+
+.header>h1{
+	display: inline;
+	line-height: 60px;
+}
+
+.header>img{
+	margin: 0 15 20 0;
+}
+
+#username{
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#username:focus {
+	outline:0;
+}
+
+.btn{
+	margin-top: 30px;
+	width: 15%;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.btn:focus {
+	outline:0;
+}
+
+
+.subheader{
+	text-align: center;
+}
+
+.results{
+	text-align: center;
+	padding-bottom: 50px;
+	margin-bottom: 200px;
+}
+
+.user{
+	margin-top: 10px;
+	margin-left: -30px;
+}
+
+#userpic{
+	border-radius: 30px;
+}
+.data{
+	text-align: center;
+	float: right;
+}
+
+.followNotification{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.followers{
+	color: red;
+}
+
+.info{
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.posts{
+	margin-right: -10px;
+}
+
+.images{
+	
+}
+
+.userpost{
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 900px){
+
+	.user{
+		margin-left: -100px;
+	}
+
+	.info{
+		padding-left: 25px;
+	}
+	
+	.following{
+		padding-left: 20px;	
+	}
+
+	.userpost{
+		height: 150px;
+	}
+}
